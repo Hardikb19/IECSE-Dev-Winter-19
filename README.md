@@ -31,4 +31,4 @@ Repository for IECSE Dev Winter Project 2019, contains the resources and solutio
 
  - All solutions will be uploaded to master.
  
- - All tasks will be posted on the [wiki](https://github.com/Hardikb19/IECSE-Dev-Winter-19X/wiki).
+ - All tasks will be posted on the [wiki](https://github.com/Hardikb19/IECSE-Dev-Winter-19/wiki).
