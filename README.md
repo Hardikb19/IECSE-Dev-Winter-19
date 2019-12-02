@@ -21,13 +21,13 @@ Repository for IECSE Dev Winter Project 2019, contains the resources and solutio
   * Finally, push your code. command - `git push origin <branch-name>`
   
 
- 	```
-    git checkout -b Hardikb19
- 	git checkout Hardikb19	// to make sure you are in your own branch
- 	git add .	// adds all files and subfolders to be committed in the current directory
- 	git commit -m "Task #0: description"
- 	git push origin Hardikb19
-    ```
+ ```shell
+ git checkout -b Hardikb19
+ git checkout Hardikb19	// to make sure you are in your own branch
+ git add .	// adds all files and subfolders to be committed in the current directory
+ git commit -m "Task #0: description"
+ git push origin Hardikb19
+ ```
 
  - All solutions will be uploaded to master.
  
