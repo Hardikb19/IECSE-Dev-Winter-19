@@ -32,10 +32,3 @@ Repository for IECSE Dev Winter Project 2019, contains the resources and solutio
  - All solutions will be uploaded to master.
  
  - All tasks will be posted on the [wiki](https://github.com/Hardikb19/IECSE-Dev-Winter-19/wiki).
- 
- # Task 1
- 
- Build your own Events Page using Assets, Widgets like Row, Column, Text and Container.
- You can use the assets provided to you in the repository, feel free to explore your creativity, we do not require an exact copy of the Events Page example we provide.
-
-![Events Page](https://i.imgur.com/5fRdY8R.png)
