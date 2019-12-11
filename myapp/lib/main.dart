@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget{
             
             Container(
               padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.all(10),
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
               color: Colors.black87,
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -31,12 +31,24 @@ class MyApp extends StatelessWidget{
                     height:80.0,
                     width:80.0,
                   ),
-                  Text(
-                    'Cicada-29/03/2019',
-                    style: TextStyle(
-                      color:Colors.white,
-                      fontSize:15,
-                    ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      Text(
+                        'Cicada',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                      Text(
+                        '29/03/2019',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                    ],
                   ),
                   Text(
                     'Online',
@@ -51,7 +63,7 @@ class MyApp extends StatelessWidget{
            
             Container(
               padding: EdgeInsets.all(10),
-              margin: EdgeInsets.all(10),
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
               color: Colors.black87,
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -61,12 +73,24 @@ class MyApp extends StatelessWidget{
                     height:80.0,
                     width:80.0,
                   ),
-                  Text(
-                    'Online Coding - 30/03/2019',
-                    style: TextStyle(
-                      color:Colors.white,
-                      fontSize: 15,
-                    ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      Text(
+                        'Online Coding',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                      Text(
+                        '30/03/19',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                    ],
                   ),
                   Text(
                     'Online',
@@ -79,8 +103,15 @@ class MyApp extends StatelessWidget{
               ),
             ),
             Container(
+              child: Image.asset(
+                'assets/logo.png',
+                height: 250.0,
+                width: 250.0,
+              ),
+            ),
+            Container(
               padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.all(10),
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
               color: Colors.black87,
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -91,15 +122,34 @@ class MyApp extends StatelessWidget{
                     height:80.0,
                     width:80.0,
                   ),
-                  Text(
-                    'Gambit-28/03/19',
-                    style: TextStyle(
-                      color:Colors.white,
-                      fontSize:15,
-                    ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      Text(
+                        'Gambit',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                      Text(
+                        '28/03/2019',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                      Text(
+                        'NLH 402',
+                        style: TextStyle(
+                          color:Colors.white,
+                          fontSize:15,
+                        ),
+                      ),
+                    ],
                   ),
                   Text(
-                    'Online',
+                    '6 PM',
                     style: TextStyle(
                       color:Colors.white,
                       fontSize:15,
@@ -110,7 +160,7 @@ class MyApp extends StatelessWidget{
             ),
             Container(
               padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.all(10),
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
               color: Colors.black87,
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -149,8 +199,8 @@ class MyApp extends StatelessWidget{
                   ),
                 ],
               ),
-            ),
-
+            )
+            
           ],
         ),
       ),
