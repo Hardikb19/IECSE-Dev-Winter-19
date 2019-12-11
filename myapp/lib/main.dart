@@ -9,10 +9,11 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Color(0xff000000),
         appBar: AppBar( 
           title: Text('IECSE Events'),
           centerTitle: true,
-          backgroundColor: Colors.grey[900],
+          backgroundColor: Color(0xff333333),
         ),
         body:Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -21,7 +22,11 @@ class MyApp extends StatelessWidget{
             Container(
               padding: EdgeInsets.all(10.0),
               margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
-              color: Colors.black87,
+              
+              decoration: new BoxDecoration(
+                borderRadius: new BorderRadius.circular(15),
+                color: Color(0xff1f1f1f),
+              ),
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
@@ -64,7 +69,10 @@ class MyApp extends StatelessWidget{
             Container(
               padding: EdgeInsets.all(10),
               margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
-              color: Colors.black87,
+              decoration: new BoxDecoration(
+                borderRadius: new BorderRadius.circular(15),
+                color: Color(0xff1f1f1f),
+              ),
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
@@ -112,7 +120,10 @@ class MyApp extends StatelessWidget{
             Container(
               padding: EdgeInsets.all(10.0),
               margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
-              color: Colors.black87,
+              decoration: new BoxDecoration(
+                borderRadius: new BorderRadius.circular(15),
+                color: Color(0xff1f1f1f),
+              ),
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
@@ -161,7 +172,10 @@ class MyApp extends StatelessWidget{
             Container(
               padding: EdgeInsets.all(10.0),
               margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
-              color: Colors.black87,
+              decoration: new BoxDecoration(
+                borderRadius: new BorderRadius.circular(15),
+                color: Color(0xff1f1f1f),
+              ),
               child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
