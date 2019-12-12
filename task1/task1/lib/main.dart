@@ -240,7 +240,7 @@ class home_page extends StatelessWidget{
           ),
         ),
         Container(
-          child: Image.asset('logo-white.png', height: 60,),
+          child: Image.asset('iecse-logo-white.png', height: 50,),
           alignment: Alignment.bottomCenter,
         ),
       ],
