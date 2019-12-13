@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter/material.dart' as prefix0;
-//import 'package:task1/home_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -52,16 +50,26 @@ class home_page extends StatelessWidget{
           alignment: Alignment.topCenter,
         ),
         Container(
-          //padding: EdgeInsets.all(8.0),
           child: Row(
             children: <Widget>[
               Expanded(
                 child: Container(
                   margin: EdgeInsets.fromLTRB(10.0, 0, 2.5, 2.5),
-                //padding: EdgeInsets.all(8.0),
-                //width: MediaQuery.of(context).size.width / 2,
-                color: Colors.redAccent[700],
-                child: Column(
+                decoration: BoxDecoration(
+                  color: Colors.redAccent[700],
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Container(
+                   decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 5.0,
+                      style: BorderStyle.solid
+                    ),
+                    borderRadius: BorderRadius.circular(15.0)
+                  ),
+                  child: Column(
                   children: <Widget>[
                     Container(
                       child: Image.asset('cicada.png', alignment: Alignment.topCenter, height: 125,),
@@ -101,15 +109,27 @@ class home_page extends StatelessWidget{
                     )
                   ],
                 ),
+                ),
               ),
               ),
               Expanded(
                 child: Container(
                   margin: EdgeInsets.fromLTRB(2.5, 0, 10.0, 2.5),
-                //padding: EdgeInsets.all(8.0),
-                //width: MediaQuery.of(context).size.width / 2,
-                color: Colors.yellow[900],
-                child: Column(
+                decoration: BoxDecoration(
+                  color: Colors.yellow[900],
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 5.0,
+                      style: BorderStyle.solid
+                    ),
+                    borderRadius: BorderRadius.circular(15.0)
+                  ),
+                  child: Column(
                   children: <Widget>[
                     Container(
                       child: Image.asset('oc.png', alignment: Alignment.topCenter, height: 125,),
@@ -149,22 +169,33 @@ class home_page extends StatelessWidget{
                     )
                   ],
                 ),
+                ),
               ),
               ),
             ],
           ),
         ),
         Container(
-          //padding: EdgeInsets.all(8.0),
-          //margin: EdgeInsets.all(4.0),
           child: Row(
             children: <Widget>[
               Expanded(
                 child: Container(
                   margin: EdgeInsets.fromLTRB(10.0,2.5,2.5,5.0),
-                //width: MediaQuery.of(context).size.width / 2,
-                color: Colors.lightGreen[900],
-                child: Column(
+                decoration: BoxDecoration(
+                  color: Colors.lightGreen[900],
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 5.0,
+                      style: BorderStyle.solid
+                    ),
+                    borderRadius: BorderRadius.circular(15.0)
+                  ),
+                  child: Column(
                   children: <Widget>[
                     Container(
                       child: Image.asset('gambit.png', alignment: Alignment.topCenter, height: 125,),
@@ -204,14 +235,27 @@ class home_page extends StatelessWidget{
                     )
                   ],
                 ),
+                ),
               ),
               ),
               Expanded(
                 child: Container(
                   margin: EdgeInsets.fromLTRB(2.5,2.5,10.0,5.0),
-                //width: MediaQuery.of(context).size.width / 2,
-                color: Colors.deepPurpleAccent[400],
-                child: Column(
+                decoration: BoxDecoration(
+                  color: Colors.deepPurpleAccent[400],
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 5.0,
+                      style: BorderStyle.solid
+                    ),
+                    borderRadius: BorderRadius.circular(15.0)
+                  ),
+                  child: Column(
                   children: <Widget>[
                     Container(
                       child: Image.asset('hawkeye.png', alignment: Alignment.topCenter, height: 125,),
@@ -251,13 +295,14 @@ class home_page extends StatelessWidget{
                     )
                   ],
                 ),
+                ),
               ),
               ),
             ],
           ),
         ),
         Container(
-          child: Image.asset('iecse-logo-white.png', height: 50,),
+          child: Image.asset('iecse-logo-white.png', height: 45,),
           alignment: Alignment.bottomCenter,
         ),
       ],
