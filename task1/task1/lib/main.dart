@@ -52,10 +52,14 @@ class home_page extends StatelessWidget{
           alignment: Alignment.topCenter,
         ),
         Container(
+          //padding: EdgeInsets.all(8.0),
           child: Row(
             children: <Widget>[
-              Container(
-                width: MediaQuery.of(context).size.width / 2,
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(10.0, 0, 2.5, 2.5),
+                //padding: EdgeInsets.all(8.0),
+                //width: MediaQuery.of(context).size.width / 2,
                 color: Colors.redAccent[700],
                 child: Column(
                   children: <Widget>[
@@ -98,8 +102,12 @@ class home_page extends StatelessWidget{
                   ],
                 ),
               ),
-              Container(
-                width: MediaQuery.of(context).size.width / 2,
+              ),
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(2.5, 0, 10.0, 2.5),
+                //padding: EdgeInsets.all(8.0),
+                //width: MediaQuery.of(context).size.width / 2,
                 color: Colors.yellow[900],
                 child: Column(
                   children: <Widget>[
@@ -142,14 +150,19 @@ class home_page extends StatelessWidget{
                   ],
                 ),
               ),
+              ),
             ],
           ),
         ),
         Container(
+          //padding: EdgeInsets.all(8.0),
+          //margin: EdgeInsets.all(4.0),
           child: Row(
             children: <Widget>[
-              Container(
-                width: MediaQuery.of(context).size.width / 2,
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(10.0,2.5,2.5,5.0),
+                //width: MediaQuery.of(context).size.width / 2,
                 color: Colors.lightGreen[900],
                 child: Column(
                   children: <Widget>[
@@ -192,8 +205,11 @@ class home_page extends StatelessWidget{
                   ],
                 ),
               ),
-              Container(
-                width: MediaQuery.of(context).size.width / 2,
+              ),
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(2.5,2.5,10.0,5.0),
+                //width: MediaQuery.of(context).size.width / 2,
                 color: Colors.deepPurpleAccent[400],
                 child: Column(
                   children: <Widget>[
@@ -235,6 +251,7 @@ class home_page extends StatelessWidget{
                     )
                   ],
                 ),
+              ),
               ),
             ],
           ),
