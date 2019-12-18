@@ -13,13 +13,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(context){
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor:Colors.black,
         appBar: AppBar(
-          backgroundColor:Colors.black,
+          backgroundColor:Color(0xff121212),
           leading: Icon(
-            Icons.access_alarm,
+            Icons.cloud,
             color: Colors.white,
-            size:10,
+            size:30,
           ),
           title: Text('Weather app'),
         ),
